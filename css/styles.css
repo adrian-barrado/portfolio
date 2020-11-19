@@ -27,17 +27,27 @@
     font-family: "SFProDisplay-Bold";   
 }
 
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
 header {
+    overflow-x: hidden;
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    height: 72x;
+    height: 72px;
     position: fixed;
     z-index: 1000;
     top: 0;
     background-color: #1d1d1d;
     padding-left: 8.5%;
+    padding-right: 8.5%;
 }
 
 
@@ -45,8 +55,7 @@ nav {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    height: 72px;
-    padding: 0% 8.5%;   
+       
 } 
 
 
@@ -82,6 +91,7 @@ h4 {
 }
 
 body {
+    overflow-x: hidden;
     background-color: #ffffff;
 }
 
@@ -169,7 +179,7 @@ p {
 
 h3{
   color: #1d1d1d;
-  font-size: 20px;
+  font-size: 21px;
   padding-bottom: 8px;
   text-align: center;
   font-family: "SFProDisplay-Light";
@@ -177,7 +187,7 @@ h3{
 
 b{
   color: #1d1d1d;
-  font-size: 20px;
+  font-size: 21px;
   font-family: "SFProDisplay-SemiBold";
 }
 
@@ -227,14 +237,14 @@ footer {
     padding-top: 35px;
     padding-right: 40%;
     padding-left: 40%;
-    padding-bottom: 16px; 
+    padding-bottom: 24px; 
     
 }
 
 .contact {
     display: flex;
     justify-content: center;
-    padding-bottom: 8px;   
+    padding-bottom: 16px;   
  
 }
 
@@ -296,7 +306,15 @@ footer {
     flex-direction: column;
 }
 
+html,body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
 header {
+    overflow-x: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -338,10 +356,12 @@ h4 {
 }
 
 body {
+    overflow-x: hidden;
     background-color: #ffffff;
 }
 
 .home {
+    overflow-x: hidden;
     width: 100vw;
     height: 100vh;
 }
@@ -556,7 +576,15 @@ b{
         flex-direction: column;
     }
 
+    html,body {
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+
     header {
+        overflow-x: hidden;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -606,6 +634,7 @@ b{
     }
     
     .home {
+        overflow-x: hidden;
         width: 100vw;
         height: 100vh;
     }
@@ -704,6 +733,7 @@ b{
     }
     
     .projects-container {
+        overflow-x: hidden;
         width: 100vw;
         height: 100vh;
         padding: 0px 16px;
@@ -831,7 +861,15 @@ b{
     flex-direction: column;
     }
 
+    html,body {
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+
     header {
+        overflow-x: hidden;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -873,10 +911,12 @@ b{
     }
     
     body {
+        
         background-color: #ffffff;
     }
     
     .home {
+        overflow-x: hidden;
         width: 100vw;
         height: 100vh;
     }
@@ -969,6 +1009,7 @@ b{
     }
     
     .projects-container {
+        overflow-x: hidden;
         width: 100vw;
         height: 100vh;
         padding: 16px;
@@ -1096,7 +1137,15 @@ b{
         flex-direction: column;
     }
 
+    html,body {
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+
     header {
+        overflow-x: hidden;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -1142,6 +1191,7 @@ b{
     }
     
     .home {
+        overflow-x: hidden;
         width: 100vw;
         height: 100vh;
     }
@@ -1235,6 +1285,7 @@ b{
     }
     
     .projects-container {
+        overflow-x: hidden;
         width: 100vw;
         height: 100vh;
         padding: 0px 16px;
@@ -1348,3 +1399,63 @@ b{
         padding: auto;
     }
 }
+
+
+
+
+
+
+
+@media only screen and (min-width: 1367px) and (-webkit-min-device-pixel-ratio: 1.25)  { 
+   
+    h1 {
+        font-size: 44.8px; 
+    }
+
+    h2 {
+        font-size: 32px;
+    }
+
+    h3 {
+        font-size: 16.8px;
+    }
+
+    h4 {
+        font-size: 16.8px;
+    }
+
+    p {
+        font-size: 16.8px;
+        line-height: 25px;
+    }
+    
+    a {
+        font-size: 13.6px;
+    }
+
+    b {
+        font-size: 16.8px;
+    }
+    
+    .image {
+        width: 80%;
+        height: 80%;
+        padding-left: 6vw;
+    }
+
+    .imageii {
+        width: 80%;
+        height: 80%;
+        padding-left: 7.5vw;
+    }
+
+    .logotipo {
+        width: 80%;
+        height: 80%;
+    }
+
+    header {
+        height: 57.6px;
+    } 
+    
+} 
