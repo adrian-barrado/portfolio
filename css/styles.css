@@ -374,7 +374,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding-top: 66px;
+    padding-top: 64px;
     padding-left: 16px;
     padding-right: 16px;
 }
@@ -647,7 +647,7 @@ b{
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        padding-top: 66px;
+        padding-top: 64px;
         padding-left: 16px;
         padding-right: 16px;
     }
@@ -688,7 +688,7 @@ b{
         width: 200px;
         height: 44px;
         margin-top: 8px;
-        padding-top: 9px;
+        padding-top: 11px;
         color: #ffffff;
         border: 1px solid #ffffff;
         text-align: center;  
@@ -776,8 +776,7 @@ b{
     
     .botton {
         width: 200px;
-        height: 44px;
-        padding-bottom: 16px;
+        height: auto;        
         color: #1d1d1d;
         border: 1px solid #1d1d1d;
         text-align: center;    
@@ -1053,8 +1052,7 @@ b{
     
     .botton {
         width: 240px;
-        height: 44px;
-        padding: auto;
+        height: auto;
         color: #1d1d1d;
         border: 1px solid #1d1d1d;
         text-align: center;  
@@ -1245,7 +1243,7 @@ b{
         width: 200px;
         height: 44px;
         margin-top: 8px;
-        padding-top: 9px;
+        padding-top: 12px;
         color: #ffffff;
         border: 1px solid #ffffff;
         text-align: center;  
@@ -1328,8 +1326,7 @@ b{
     
     .botton {
         width: 200px;
-        height: 44px;
-        padding-bottom: 16px;
+        height: auto;
         color: #1d1d1d;
         border: 1px solid #1d1d1d;
         text-align: center;    

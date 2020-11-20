@@ -206,13 +206,12 @@ header {
     justify-content: center;
     align-items: center;
     width: 100vw;
-    height: 88px;
+    height: auto;
     position: fixed;
     z-index: 1000;
     top: 0;
     background-color: #1d1d1d;
-    padding-left: 16px;
-    padding-right: 16px;    
+    padding: 8px 16px;    
 }
 
 a {
@@ -249,7 +248,7 @@ main {
     height: 50vh;
     padding-left: 16px;
     padding-right: 16px;
-    padding-top: 64px;
+    padding-top: 48px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -360,8 +359,7 @@ header {
     z-index: 1000;
     top: 0;
     background-color: #1d1d1d;
-    padding-left: 16px;
-    padding-right: 16px;    
+    padding: 8px 16px;  
 }
 
 a {
@@ -511,8 +509,7 @@ h1 {
         z-index: 1000;
         top: 0;
         background-color: #1d1d1d;
-        padding-left: 16px;
-        padding-right: 16px;    
+        padding: 8px 16px;  
     }
     
     a {
@@ -550,7 +547,7 @@ h1 {
         height: 80vh;
         padding-left: 16px;
         padding-right: 16px;
-        padding-top: 64px;
+        padding-top: 56px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -661,8 +658,7 @@ h1 {
             z-index: 1000;
             top: 0;
             background-color: #1d1d1d;
-            padding-left: 16px;
-            padding-right: 16px;    
+            padding: 8px 16px;    
         }
         
         a {
@@ -700,7 +696,7 @@ h1 {
             height: 40vh;
             padding-left: 16px;
             padding-right: 16px;
-            padding-top: 88px;
+            padding-top: 80px;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -807,8 +803,7 @@ h1 {
             z-index: 1000;
             top: 0;
             background-color: #1d1d1d;
-            padding-left: 16px;
-            padding-right: 16px;    
+            padding: 8px 16px;   
         }
         
         a {
@@ -955,8 +950,7 @@ h1 {
             z-index: 1000;
             top: 0;
             background-color: #1d1d1d;
-            padding-left: 16px;
-            padding-right: 16px;    
+            padding: 8px 16px;   
         }
         
         a {
@@ -994,7 +988,7 @@ h1 {
             height: 50vh;
             padding-left: 16px;
             padding-right: 16px;
-            padding-top: 56px;
+            padding-top: 48px;
             display: flex;
             align-items: center;
             justify-content: center;
