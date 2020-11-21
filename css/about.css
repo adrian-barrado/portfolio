@@ -432,8 +432,8 @@ h1 {
     display: flex;
     justify-content: space-evenly;
     padding-top: 24px;
-    padding-right: 16px;
-    padding-left: 16px;
+    padding-right: 25vw;
+    padding-left: 25vw;
     padding-bottom: 32px; 
     
 }
@@ -441,7 +441,7 @@ h1 {
 .contact {
     display: flex;
     justify-content: center;
-    padding-bottom: 32px;   
+    padding-bottom: 24px;   
  
 }
 
@@ -1017,14 +1017,17 @@ h1 {
         
         .footer {
             width: 100vw;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
         }
         
         .social {
             display: flex;
-            justify-content: space-evenly;
+            justify-content: space-between;
             padding-top: 24px;
-            padding-right: 16px;
-            padding-left: 16px;
+            padding-right: 35vw;
+            padding-left: 35vw;
             padding-bottom: 32px; 
             
         }
@@ -1032,7 +1035,7 @@ h1 {
         .contact {
             display: flex;
             justify-content: center;
-            padding-bottom: 32px;   
+            padding-bottom: 24px;   
          
         }
         
