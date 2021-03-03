@@ -609,7 +609,7 @@ b{
         position: fixed;
         z-index: 1000;
         top: 0;
-        background-color: #1d1d1d;
+        background-color: #313D4D;
         padding-left: 16px;
         padding-right: 16px;    
     }
@@ -714,7 +714,7 @@ b{
     
     .botton-2:hover {
         background-color: #ffffff;
-        color: #1d1d1d;
+        color: #313D4D;
         text-decoration: none;
     }
     
@@ -799,7 +799,7 @@ b{
     }
     
     .botton:hover {
-        background-color: #1d1d1d;
+        background-color: #313D4D;
         color: #ffffff;
         text-decoration: none;
     }
@@ -893,7 +893,7 @@ b{
         position: fixed;
         z-index: 1000;
         top: 0;
-        background-color: #1d1d1d;
+        background-color: #313D4D;
         padding-left: 32px;
         padding-right: 32px;    
     }
@@ -939,7 +939,7 @@ b{
     .home-container{
         width: 100vw;
         height: 70vh;
-        background-color: #1d1d1d;
+        background-color: #313D4D;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -1069,8 +1069,8 @@ b{
     .botton {
         width: 240px;
         height: auto;
-        color: #1d1d1d;
-        border: 1px solid #1d1d1d;
+        color: #313D4D;
+        border: 1px solid #313D4D;
         text-align: center;  
         
     }
@@ -1168,7 +1168,7 @@ b{
         position: fixed;
         z-index: 1000;
         top: 0;
-        background-color: #1d1d1d;
+        background-color: #313D4D;
         padding-left: 16px;
         padding-right: 16px;    
     }
@@ -1213,7 +1213,7 @@ b{
     .home-container{
         width: 100vw;
         height: 70vh;
-        background-color: #1d1d1d;
+        background-color: #313D4D;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -1343,13 +1343,13 @@ b{
     .botton {
         width: 200px;
         height: auto;
-        color: #1d1d1d;
-        border: 1px solid #1d1d1d;
+        color: #313D4D;
+        border: 1px solid #313D4D;
         text-align: center;    
     }
     
     .botton:hover {
-        background-color: #1d1d1d;
+        background-color: #313D4D;
         color: #ffffff;
         text-decoration: none;
     }
